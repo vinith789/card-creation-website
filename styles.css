@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px; margin-top: 20px;
+  flex-wrap: wrap;
+}
+.business-card {
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fdd835;
+    color: black;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+.front-card {
+  text-align: center;
+  padding: 30px;
+}
+.back-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.back-card .text-content {
+    flex: 1;
+}
+.qr-section {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.form-control, .btn-primary {
+  border-radius: 5px;
+}
